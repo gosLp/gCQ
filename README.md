@@ -206,3 +206,14 @@ make bfs-sweep \
 	BFS_CSV_NAME=concurrent_bfs/bfs_bench_final.csv
 ```
 
+## 7) Baselines
+
+Baseline usage notes are documented in:
+
+- `concurrent_bfs/README.md` for Gunrock BFS baseline (`-m` market input mode)
+- `concurrent_rt/README.md` for the RT compaction baseline
+
+RT compaction baseline source is in:
+
+- `concurrent_rt/baselines/rt_compaction.cpp`
+
