@@ -1,0 +1,9 @@
+out/
+concurrent_bfs/out/
+concurrent_bfs/graphs/*.mtx
+!concurrent_bfs/graphs/README.md
+trash/
+*.log
+*.o
+*.ppm
+*.csv
