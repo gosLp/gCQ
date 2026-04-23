@@ -217,3 +217,9 @@ RT compaction baseline source is in:
 
 - `concurrent_rt/baselines/rt_compaction.cpp`
 
+## 8) License
+
+This artifact is released under the MIT License.
+
+- `LICENSE`
+
