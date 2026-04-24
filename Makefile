@@ -11,7 +11,7 @@ BFS_BUILD_DIR ?= concurrent_bfs/out
 BFS_GRAPH_DIR ?= concurrent_bfs/graphs
 BFS_SWEEP_SCRIPT ?= concurrent_bfs/run_bfs_sweep.sh
 
-# Runtime args
+# Raytracing (RT) args
 QUEUE ?= gwfq
 SCENE ?= 0
 THREADS ?= 1024
@@ -256,7 +256,7 @@ rt-clean:
 	@echo "Removed $(RT_BUILD_DIR)"
 
 rt-help:
-	@echo "RT benchmark targets (run inside final/):"
+	@echo "Raytracing (RT) benchmark targets (run inside final/):"
 	@echo "  make rt QUEUE=gwfq SCENE=0 THREADS=1024 BOUNCES=4"
 	@echo ""
 	@echo "Throughput benchmark targets:"

@@ -2,7 +2,7 @@
 
 This directory contains three main GPU queue workflows:
 
-- RT benchmark (`concurrent_rt/rt_final.cpp`)
+- Raytracing (RT) benchmark (`concurrent_rt/rt_final.cpp`)
 - Throughput benchmark (`throughout_bench.cpp`)
 - History generation + FIFO linearizability checking (`correctness/history.cpp`, `correctness/lincheck/main.go`)
 - BFS benchmark and sweeps (`concurrent_bfs/bfs_bench.cpp`, `concurrent_bfs/run_bfs_sweep.sh`)
@@ -18,7 +18,7 @@ All commands below are run from this directory (`wfq/final`).
 
 Only these four queues are supported through this Makefile: `gwfq | glfq | wfq | sfq`.
 
-## 1) Runtime (RT) benchmark
+## 1) Raytracing (RT) benchmark
 
 Build + run:
 
